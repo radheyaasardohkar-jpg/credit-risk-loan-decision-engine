@@ -4,29 +4,24 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Data
+# Raw and generated datasets
 data/raw/
 data/interim/
 data/processed/
 
-# Saved models
+# Model artifacts
 models/*.joblib
 models/*.pkl
 
-# OS files
+# Secrets and local configuration
+.env
+.streamlit/secrets.toml
+
+# Editor and operating system files
+.vscode/
 .DS_Store
 Thumbs.db
-
-# VS Code
-.vscode/
-
-# Environment variables
-.env
-
-# Streamlit
-.streamlit/
