@@ -10,6 +10,7 @@ import seaborn as sns
 import shap
 from app.components.charts import render_global_importance
 import streamlit as st
+from app.components.charts import render_global_importance
 
 # --------------------------------------------------
 # PROJECT PATHS AND IMPORTS
