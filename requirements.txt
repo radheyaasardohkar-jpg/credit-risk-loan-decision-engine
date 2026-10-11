@@ -8,4 +8,4 @@ shap
 streamlit
 joblib
 jupyter
-pytests
+pytest
